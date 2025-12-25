@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.cinema.controller.SeatController"
+            prefWidth="900"
+            prefHeight="600"
+            style="-fx-background-color: #020617;">
+
+    <VBox spacing="20"
+          alignment="CENTER"
+          AnchorPane.topAnchor="30"
+          AnchorPane.leftAnchor="30"
+          AnchorPane.rightAnchor="30"
+          AnchorPane.bottomAnchor="30">
+
+        <Label text="🎟 Pilih Kursi"
+               style="-fx-text-fill: white;
+                      -fx-font-size: 26px;
+                      -fx-font-weight: bold;"/>
+
+        <Label text="LAYAR"
+               style="-fx-background-color: white;
+                      -fx-text-fill: black;
+                      -fx-padding: 8 200;
+                      -fx-font-weight: bold;"/>
+
+        <GridPane fx:id="seatGrid"
+                  hgap="12"
+                  vgap="12"
+                  alignment="CENTER"/>
+
+        <Label fx:id="infoLabel"
+               text="Kursi dipilih: 0"
+               style="-fx-text-fill: white;
+                      -fx-font-size: 16px;"/>
+
+        <Button text="⬅ Kembali"
+                onAction="#backToDetail"
+                style="-fx-background-color: #1e293b;
+                       -fx-text-fill: white;
+                       -fx-background-radius: 8;
+                       -fx-padding: 8 20;"/>
+
+    </VBox>
+
+</AnchorPane>
