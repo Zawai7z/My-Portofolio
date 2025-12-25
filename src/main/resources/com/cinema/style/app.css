@@ -61,3 +61,32 @@
     -fx-scale-x: 1.05;
     -fx-scale-y: 1.05;
 }
+
+/* ================= TIME BUTTON ================= */
+
+/* BUTTON JAM TAYANG */
+.time-button {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 12;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+
+.time-button:hover {
+    -fx-background-color: #22c55e;
+    -fx-text-fill: black;
+}
+
+.time-button:pressed {
+    -fx-background-color: #16a34a;
+}
+
+.time-button.selected {
+    -fx-background-color: #22c55e;
+    -fx-text-fill: black;
+}
+

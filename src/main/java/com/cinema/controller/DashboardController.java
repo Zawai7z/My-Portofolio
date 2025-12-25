@@ -27,8 +27,8 @@ public class DashboardController {
         ImageView imageView = new ImageView(
                 new Image(getClass().getResourceAsStream(imagePath))
         );
-        imageView.setFitWidth(150);
-        imageView.setFitHeight(220);
+        imageView.setFitWidth(200);
+        imageView.setFitHeight(300);
         imageView.setPreserveRatio(true);
 
         Label label = new Label(title);

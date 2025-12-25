@@ -20,8 +20,8 @@
 
         <!-- FOTO FILM -->
         <ImageView fx:id="filmImage"
-                   fitWidth="260"
-                   fitHeight="380"
+                   fitWidth="300"
+                   fitHeight="580"
                    preserveRatio="true"/>
 
         <!-- DETAIL FILM -->
@@ -38,9 +38,9 @@
                           -fx-font-size: 16px;"/>
 
             <HBox spacing="10">
-                <Button text="13.00" onAction="#openSeat"/>
-                <Button text="16.30" onAction="#openSeat"/>
-                <Button text="19.00" onAction="#openSeat"/>
+                <Button text="13.00" styleClass="time-button" onAction="#openSeat"/>
+                <Button text="16.30" styleClass="time-button" onAction="#openSeat"/>
+                <Button text="19.00" styleClass="time-button" onAction="#openSeat"/>
             </HBox>
 
             <Button text="⬅ Kembali"
